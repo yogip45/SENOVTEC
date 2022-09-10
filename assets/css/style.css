@@ -118,8 +118,8 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
-  bottom: 15px;
+  right: 24px;
+  bottom: 90px;
   z-index: 996;
   background: #d59921;
   width: 40px;
@@ -1805,4 +1805,22 @@ h6 {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:38px;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
 }
