@@ -1810,8 +1810,8 @@ h6 {
   position: fixed;
   right: 60px;
   overflow: hidden;
-  width: 58px;
-  height: 58px;
+  width: 57px;
+  height: 57px;
   border-radius: 100px;
   border: 0;
   z-index: 9999;
@@ -1835,17 +1835,18 @@ h6 {
 }
 
 .wa_btn i {
-  bottom : 10px;
-  right: 10px;
+  position: relative;
+  bottom : 0px;
+  right: 1px;
   text-decoration: none;
   color: white;
-  padding: 11px 10px;
+  padding: 12px 10px;
 }
 
 .wa_btn span {
   font-weight: 130;
   position: relative;
-  bottom: 4px;
+  bottom: 6px;
   color: white;
-  font-size: 17px;
+  font-size: 18px;
 }
