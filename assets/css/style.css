@@ -1843,7 +1843,9 @@ h6 {
 }
 
 .wa_btn span {
-  text-decoration: none;
+  font-weight: 130;
+  position: relative;
+  bottom: 4px;
   color: white;
   font-size: 17px;
 }
