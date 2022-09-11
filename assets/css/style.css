@@ -1807,20 +1807,44 @@ h6 {
   color: #ddd;
 }
 
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:20px;
-	right:10px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:38px;
-  z-index:100;
+.wa_btn {
+  position: fixed;
+  right: 60px;
+  overflow: hidden;
+  width: 58px;
+  height: 58px;
+  border-radius: 100px;
+  border: 0;
+  z-index: 9999;
+  transition: .2s;
 }
 
-.my-float{
-	margin-top:16px;
+.wa_btn:hover {
+  width: auto;
+  padding: 2px 20px;
+  cursor: pointer;
+}
+
+.wa_btn.whatsapp{
+  bottom: 20px;
+  right: 15px;
+  background-color: #22c15e;
+}
+
+.wa_btn.whatsapp:hover{
+  background-color: #22c15e;
+}
+
+.wa_btn i {
+  bottom : 10px;
+  right: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 11px 10px;
+}
+
+.wa_btn span {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
 }
