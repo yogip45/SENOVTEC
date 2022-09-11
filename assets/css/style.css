@@ -118,8 +118,8 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
-  bottom: 15px;
+  right: 24px;
+  bottom: 90px;
   z-index: 996;
   background: #d59921;
   width: 40px;
@@ -1730,6 +1730,7 @@ h6 {
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+  margin-left: auto;
 }
 
 #footer .footer-top .footer-links ul {
@@ -1763,6 +1764,7 @@ h6 {
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+  margin-left: auto;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1803,4 +1805,46 @@ h6 {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+.wa_btn {
+  position: fixed;
+  right: 60px;
+  overflow: hidden;
+  width: 58px;
+  height: 58px;
+  border-radius: 100px;
+  border: 0;
+  z-index: 9999;
+  transition: .2s;
+}
+
+.wa_btn:hover {
+  width: auto;
+  padding: 2px 20px;
+  cursor: pointer;
+}
+
+.wa_btn.whatsapp{
+  bottom: 20px;
+  right: 15px;
+  background-color: #22c15e;
+}
+
+.wa_btn.whatsapp:hover{
+  background-color: #22c15e;
+}
+
+.wa_btn i {
+  bottom : 10px;
+  right: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 11px 10px;
+}
+
+.wa_btn span {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
 }
