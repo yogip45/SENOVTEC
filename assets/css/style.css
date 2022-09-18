@@ -987,6 +987,10 @@ h6 {
   color: #152b79;
   margin-bottom: 0;
 }
+.bg-data{
+  background-color: #ffc107;
+  opacity: 1;
+}
 
 /*--------------------------------------------------------------
 # Venue Section
