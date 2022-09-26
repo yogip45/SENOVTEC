@@ -1,0 +1,31 @@
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes shadow-pulse2 {
+  0% {
+    box-shadow: 0 0 0 0px rgba(248, 247, 247, 0.2);
+  }
+
+  100% {
+    box-shadow: 0 0 0 35px rgba(225, 225, 225, 0);
+  }
+}
+
+.pulse-1 {
+  animation: shadow-pulse 1s infinite;
+}
+
+.pulse-2 {
+  animation: shadow-pulse2 1s infinite;
+}
+
+.pulse-3 {
+  animation: shadow-pulse 1s 1;
+}
