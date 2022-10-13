@@ -987,7 +987,7 @@ h6 {
   color: #152b79;
   margin-bottom: 0;
 }
-.bg-data{
+.bg-data {
   background-color: #ffc107;
   opacity: 1;
 }
@@ -1243,6 +1243,40 @@ h6 {
     margin-top: 6px;
   }
 }
+
+/* ------------------------------------------------------------------
+Supported section 
+----------------------------------------------------------------------*/
+
+#supported {
+  padding: 60px 0;
+}
+
+#supported .supported-wrap {
+  border-top: 1px solid #e0e5fa;
+  border-left: 1px solid #e0e5fa;
+  margin-bottom: 30px;
+}
+
+#supported .supported-logo {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.5);
+  height: 160px;
+}
+
+#supported .supported-logo:hover img {
+  transform: scale(1.2);
+}
+
+/*---------------------------------------------------------------------
+ End section 
+ -----------------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Sponsors Section
@@ -1819,7 +1853,7 @@ h6 {
   border-radius: 100px;
   border: 0;
   z-index: 9999;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .wa_btn:hover {
@@ -1828,19 +1862,19 @@ h6 {
   cursor: pointer;
 }
 
-.wa_btn.whatsapp{
+.wa_btn.whatsapp {
   bottom: 20px;
   right: 15px;
   background-color: #22c15e;
 }
 
-.wa_btn.whatsapp:hover{
+.wa_btn.whatsapp:hover {
   background-color: #22c15e;
 }
 
 .wa_btn i {
   position: relative;
-  bottom : 0px;
+  bottom: 0px;
   right: 1px;
   text-decoration: none;
   color: white;
